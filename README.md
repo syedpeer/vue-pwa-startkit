@@ -1,4 +1,4 @@
-# app-vue-pwa
+# Vue PWA StartKit
 
 > A Vue.js project
 
