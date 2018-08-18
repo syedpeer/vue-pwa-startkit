@@ -4,10 +4,14 @@ import Vue from 'vue'
 import Admin from './templates/Admin'
 import router from './router'
 import Vuetify from 'vuetify'
+import Vuex from 'vuex'
+import store from './store'
 
 import 'vuetify/dist/vuetify.min.css'
 
 Vue.config.productionTip = false
+
+Vue.use(Vuex)
 
 Vue.use(Vuetify, {
     theme: {
@@ -19,6 +23,7 @@ Vue.use(Vuetify, {
 new Vue({
     el: '#app',
     router,
+    store,
     template: '<Admin />',
     components: { Admin }
 })

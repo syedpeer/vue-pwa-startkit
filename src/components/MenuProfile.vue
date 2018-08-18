@@ -7,11 +7,11 @@
             <v-list>
                 <v-list-tile avatar>
                     <v-list-tile-avatar>
-                        <img src="https://www.gravatar.com/avatar/0CA5BF0968B8083AD41382045CFB60FD" alt="John">
+                        <img src="https://www.gravatar.com/avatar/0CA5BF0968B8083AD41382045CFB60FD">
                     </v-list-tile-avatar>
                     <v-list-tile-content>
-                        <v-list-tile-title class="name-strong">Odirlei Borgert</v-list-tile-title>
-                        <v-list-tile-sub-title>odirleiborgert@gmail.com</v-list-tile-sub-title>
+                        <v-list-tile-title class="name-strong">{{ user.name }}</v-list-tile-title>
+                        <v-list-tile-sub-title>{{ user.email }}</v-list-tile-sub-title>
                     </v-list-tile-content>
                 </v-list-tile>
             </v-list>
@@ -35,6 +35,11 @@ export default {
                 { title: 'Profile' },
                 { title: 'Exit' }
             ]
+        }
+    },
+    computed: {
+        user() {
+            return this.$store.state.user
         }
     }
 }
