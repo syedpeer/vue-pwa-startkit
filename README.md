@@ -1,6 +1,6 @@
 
 <div style="text-align: center;">
-    <img src="https://imgur.com/a/un47rMS" />
+    <img src="https://i.imgur.com/un47rMS.png" />
 </div>
 
 # Vue PWA StartKit
@@ -23,4 +23,4 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+<img src="https://i.imgur.com/sBZmLg9.png" />
