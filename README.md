@@ -1,6 +1,6 @@
 
 <div style="text-align: center;">
-    <img src="https://i.imgur.com/un47rMS.png" />
+    <img src="https://i.imgur.com/7P329MR.png" />
 </div>
 
 # Vue PWA StartKit
