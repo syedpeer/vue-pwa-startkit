@@ -1,3 +1,8 @@
+
+<div style="text-align: center;">
+    <img src="https://imgur.com/a/un47rMS" />
+</div>
+
 # Vue PWA StartKit
 
 > A Vue.js project
