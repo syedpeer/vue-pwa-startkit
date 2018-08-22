@@ -3,9 +3,11 @@
     <img src="https://i.imgur.com/7P329MR.png" />
 </div>
 
-# Vue PWA StartKit
+## Vue PWA StartKit
 
-> A Vue.js project
+> Start a project quickly with this boilerplate. Vue + Vuex + Vuetify. 
+
+> View [Demo](https://borgert-vue-pwa-startkit.netlify.com/) with Netlify
 
 ## Build Setup
 
